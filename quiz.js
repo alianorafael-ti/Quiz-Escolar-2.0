@@ -1870,6 +1870,557 @@ perguntas["Sociologia"] = questoesSociologia.map(function(item) {
 
 });
 
+// ======================================
+// BIOLOGIA - 30 QUESTÕES
+// ======================================
+
+const questoesBiologia = [
+
+    // MITOSE - 15 QUESTÕES
+
+    [
+        "Mitose",
+        "Qual é uma função importante da mitose no corpo humano?",
+        ["Produzir gametas", "Permitir crescimento e renovação dos tecidos", "Reduzir à metade os cromossomos", "Unir células reprodutivas"],
+        1,
+        "A mitose participa do crescimento, da renovação celular e da cicatrização."
+    ],
+
+    [
+        "Mitose",
+        "Quantas células são formadas ao final de uma mitose típica?",
+        ["Duas", "Quatro", "Seis", "Oito"],
+        0,
+        "Uma célula passa por uma divisão mitótica, originando duas células-filhas."
+    ],
+
+    [
+        "Mitose",
+        "Em condições normais, as células resultantes da mitose possuem:",
+        ["Metade dos cromossomos da célula inicial", "O dobro dos cromossomos da célula inicial", "O mesmo número de cromossomos da célula inicial", "Nenhum cromossomo"],
+        2,
+        "A mitose mantém o número de cromossomos da célula que se dividiu."
+    ],
+
+    [
+        "Mitose",
+        "Se uma célula humana com 46 cromossomos realiza mitose, cada célula-filha terá:",
+        ["23 cromossomos", "92 cromossomos", "12 cromossomos", "46 cromossomos"],
+        3,
+        "A divisão mitótica conserva os 46 cromossomos em cada célula-filha."
+    ],
+
+    [
+        "Mitose",
+        "Qual situação depende da multiplicação de células por mitose?",
+        ["Cicatrização de um ferimento", "Fecundação de um óvulo", "Formação de espermatozoides", "Redução do número de cromossomos"],
+        0,
+        "Na cicatrização, novas células ajudam a reparar o tecido lesionado."
+    ],
+
+    [
+        "Mitose",
+        "O que acontece com o DNA antes de uma célula iniciar a divisão mitótica?",
+        ["É eliminado", "É duplicado", "É dividido pela metade imediatamente", "É transformado em proteína"],
+        1,
+        "A duplicação do DNA prepara a célula para distribuir cópias do material genético às células-filhas."
+    ],
+
+    [
+        "Mitose",
+        "Durante a divisão celular, os cromossomos tornam-se mais condensados. Isso facilita:",
+        ["A produção de alimento", "A entrada de água", "Sua movimentação e distribuição", "A eliminação definitiva do núcleo"],
+        2,
+        "A condensação facilita a organização e a movimentação dos cromossomos durante a divisão."
+    ],
+
+    [
+        "Mitose",
+        "Quando os cromossomos ficam alinhados no centro da célula, isso indica que:",
+        ["O material genético está organizado para a separação", "A célula já se transformou em quatro", "O DNA desapareceu", "A célula deixou de possuir cromossomos"],
+        0,
+        "O alinhamento central antecede a separação das cromátides-irmãs na mitose."
+    ],
+
+    [
+        "Mitose",
+        "Na mitose, o que ocorre quando as cromátides-irmãs se separam?",
+        ["Elas são destruídas", "Elas se transformam em citoplasma", "Elas se juntam novamente no centro", "Elas migram para lados opostos da célula"],
+        3,
+        "As cromátides-irmãs são puxadas para polos opostos, assegurando a distribuição do material genético."
+    ],
+
+    [
+        "Mitose",
+        "Após a separação dos cromossomos, o que ocorre com os núcleos das futuras células-filhas?",
+        ["Desaparecem definitivamente", "Voltam a se organizar ao redor do material genético", "Transformam-se em gametas", "Perdem todo o DNA"],
+        1,
+        "Os envoltórios nucleares voltam a se organizar ao final da divisão nuclear."
+    ],
+
+    [
+        "Mitose",
+        "O que significa citocinese?",
+        ["Duplicação do DNA", "Alinhamento dos cromossomos", "Divisão do citoplasma", "Formação de cromossomos homólogos"],
+        2,
+        "A citocinese separa o citoplasma, concluindo a formação das células-filhas."
+    ],
+
+    [
+        "Mitose",
+        "Qual alternativa descreve corretamente a mitose?",
+        ["Uma divisão celular que geralmente produz duas células semelhantes à original", "Duas divisões que sempre produzem quatro gametas", "União de duas células reprodutivas", "Processo que sempre reduz os cromossomos à metade"],
+        0,
+        "A mitose envolve uma divisão e geralmente origina duas células geneticamente semelhantes."
+    ],
+
+    [
+        "Mitose",
+        "Uma célula com 8 cromossomos passa por mitose. Quantos cromossomos terá cada célula-filha?",
+        ["4", "16", "2", "8"],
+        3,
+        "A mitose conserva a quantidade de cromossomos: cada célula-filha terá 8."
+    ],
+
+    [
+        "Mitose",
+        "Por que a mitose é importante para o crescimento de um organismo multicelular?",
+        ["Porque elimina todos os tecidos", "Porque aumenta o número de células", "Porque reduz à metade o número de cromossomos", "Porque impede a renovação celular"],
+        1,
+        "O crescimento de muitos tecidos ocorre pelo aumento do número de células por mitose."
+    ],
+
+    [
+        "Mitose",
+        "Qual processo está mais diretamente ligado à formação de novas células da pele?",
+        ["Fecundação", "Meiose", "Mitose", "Formação de gametas"],
+        2,
+        "As células da pele se renovam por divisões mitóticas das células precursoras."
+    ],
+
+
+    // MEIOSE - 15 QUESTÕES
+
+    [
+        "Meiose",
+        "Qual é a principal importância da meiose para a reprodução sexuada?",
+        ["Produzir células com metade dos cromossomos", "Dobrar permanentemente os cromossomos", "Substituir a fecundação", "Impedir a diversidade genética"],
+        0,
+        "A meiose reduz o número de cromossomos, possibilitando a formação de gametas."
+    ],
+
+    [
+        "Meiose",
+        "Quantas divisões celulares acontecem em uma meiose completa?",
+        ["Uma", "Três", "Duas", "Quatro"],
+        2,
+        "A meiose tem duas divisões sucessivas após uma única duplicação prévia do DNA."
+    ],
+
+    [
+        "Meiose",
+        "Em um exemplo típico, quantas células são obtidas ao final da meiose?",
+        ["Duas", "Quatro", "Uma", "Oito"],
+        1,
+        "Uma meiose típica produz quatro células haploides. Na formação de óvulos, nem todas se tornam gametas funcionais."
+    ],
+
+    [
+        "Meiose",
+        "Uma célula humana com 46 cromossomos origina células por meiose. Cada célula final terá:",
+        ["46 cromossomos", "92 cromossomos", "12 cromossomos", "23 cromossomos"],
+        3,
+        "A meiose reduz de 46 para 23 cromossomos nas células resultantes."
+    ],
+
+    [
+        "Meiose",
+        "Qual processo contribui para a diversidade genética na reprodução sexuada?",
+        ["Meiose", "Cicatrização", "Renovação da pele", "Produção de células idênticas por mitose"],
+        0,
+        "A meiose permite novas combinações genéticas, inclusive pela recombinação e pela distribuição dos cromossomos."
+    ],
+
+    [
+        "Meiose",
+        "Por que os gametas humanos possuem 23 cromossomos, e não 46?",
+        ["Porque não têm DNA", "Porque todos os cromossomos são destruídos", "Porque a meiose reduz à metade o número de cromossomos", "Porque os gametas são células da pele"],
+        2,
+        "A redução cromossômica possibilita restaurar 46 cromossomos na fecundação."
+    ],
+
+    [
+        "Meiose",
+        "No início da meiose, cromossomos homólogos podem ficar próximos. Isso permite:",
+        ["A perda de todos os genes", "A troca de segmentos entre cromossomos homólogos", "A formação imediata de quatro núcleos", "A eliminação do citoplasma"],
+        1,
+        "A recombinação genética pode ocorrer pela troca de partes entre cromossomos homólogos."
+    ],
+
+    [
+        "Meiose",
+        "O que acontece com os cromossomos homólogos na primeira divisão da meiose?",
+        ["São eliminados", "Formam obrigatoriamente pares idênticos", "Permanecem juntos nas mesmas células", "São separados para células diferentes"],
+        3,
+        "Na primeira divisão meiótica, os cromossomos homólogos separam-se."
+    ],
+
+    [
+        "Meiose",
+        "Na segunda divisão da meiose, o que é separado?",
+        ["As cromátides-irmãs", "Os tecidos do corpo", "Os órgãos reprodutores", "Os gametas já fecundados"],
+        0,
+        "Na segunda divisão meiótica, ocorre a separação das cromátides-irmãs."
+    ],
+
+    [
+        "Meiose",
+        "Quantas vezes o DNA é duplicado antes das duas divisões da meiose?",
+        ["Duas vezes", "Três vezes", "Uma vez", "Nenhuma vez"],
+        2,
+        "O DNA é duplicado uma vez antes da primeira divisão; não ocorre nova duplicação entre as duas divisões."
+    ],
+
+    [
+        "Meiose",
+        "Após a primeira divisão da meiose, quantas células geralmente existem?",
+        ["Quatro", "Duas", "Oito", "Uma"],
+        1,
+        "A primeira divisão da meiose produz duas células, que passarão pela segunda divisão."
+    ],
+
+    [
+        "Meiose",
+        "Na fecundação humana, a união de um gameta com 23 cromossomos a outro com 23 resulta em:",
+        ["23 cromossomos", "69 cromossomos", "92 cromossomos", "46 cromossomos"],
+        3,
+        "A união de dois gametas humanos, cada um com 23 cromossomos, restabelece 46."
+    ],
+
+    [
+        "Meiose",
+        "Qual comparação entre mitose e meiose está correta?",
+        ["Mitose mantém o número de cromossomos; meiose reduz esse número", "Ambas sempre formam quatro células", "A mitose produz gametas e a meiose renova a pele", "Ambas eliminam o DNA das células-filhas"],
+        0,
+        "A mitose normalmente conserva o número cromossômico; a meiose reduz esse número à metade."
+    ],
+
+    [
+        "Meiose",
+        "Uma espécie possui 20 cromossomos em suas células corporais. Seus gametas normalmente terão:",
+        ["40", "20", "10", "5"],
+        2,
+        "A meiose reduz à metade o número de cromossomos: 20 dividido por 2 é 10."
+    ],
+
+    [
+        "Meiose",
+        "Um estudante observa uma divisão que origina quatro células com metade dos cromossomos da célula inicial. Qual processo está observando?",
+        ["Mitose", "Meiose", "Fecundação", "Cicatrização"],
+        1,
+        "A formação típica de quatro células com metade dos cromossomos caracteriza a meiose."
+    ]
+
+];
+
+
+// ======================================
+// ADICIONAR BIOLOGIA AO BANCO DO QUIZ
+// ======================================
+
+perguntas["Biologia"] = questoesBiologia.map(function(item) {
+
+    return {
+        tema: item[0],
+        pergunta: item[1],
+        alternativas: item[2],
+        correta: item[3],
+        explicacao: item[4]
+    };
+
+});
+
+// ======================================
+// FÍSICA - 30 QUESTÕES
+// ======================================
+
+const questoesFisica = [
+
+    // VELOCIDADE MÉDIA - 8 QUESTÕES
+
+    [
+        "Velocidade média",
+        "Um carro percorreu 120 km em 2 horas. Qual foi sua velocidade média?",
+        ["40 km/h", "60 km/h", "80 km/h", "120 km/h"],
+        1,
+        "Velocidade média = distância ÷ tempo. Portanto, 120 ÷ 2 = 60 km/h."
+    ],
+
+    [
+        "Velocidade média",
+        "Um ônibus percorreu 90 km em 3 horas. Qual foi sua velocidade média?",
+        ["30 km/h", "45 km/h", "60 km/h", "90 km/h"],
+        0,
+        "Dividimos a distância pelo tempo: 90 ÷ 3 = 30 km/h."
+    ],
+
+    [
+        "Velocidade média",
+        "Um atleta correu 200 metros em 40 segundos. Qual foi sua velocidade média?",
+        ["4 m/s", "5 m/s", "8 m/s", "10 m/s"],
+        1,
+        "Velocidade média = 200 ÷ 40 = 5 m/s."
+    ],
+
+    [
+        "Velocidade média",
+        "Um ônibus percorreu 150 km em 5 horas. Qual foi sua velocidade média?",
+        ["20 km/h", "25 km/h", "30 km/h", "50 km/h"],
+        2,
+        "Aplicando a fórmula: V = 150 ÷ 5 = 30 km/h."
+    ],
+
+    [
+        "Velocidade média",
+        "Uma pessoa caminhou 12 km em 3 horas. Qual foi sua velocidade média?",
+        ["4 km/h", "6 km/h", "9 km/h", "15 km/h"],
+        0,
+        "Dividimos 12 km por 3 horas e encontramos 4 km/h."
+    ],
+
+    [
+        "Velocidade média",
+        "Um carro percorreu 210 km em 3 horas. Qual foi sua velocidade média?",
+        ["30 km/h", "50 km/h", "60 km/h", "70 km/h"],
+        3,
+        "V = 210 ÷ 3 = 70 km/h."
+    ],
+
+    [
+        "Velocidade média",
+        "Um ciclista percorreu 24 km em 2 horas. Qual foi sua velocidade média?",
+        ["8 km/h", "12 km/h", "16 km/h", "24 km/h"],
+        1,
+        "V = 24 ÷ 2 = 12 km/h."
+    ],
+
+    [
+        "Velocidade média",
+        "Um veículo percorreu 60 km na primeira hora e mais 60 km nas duas horas seguintes. Qual foi sua velocidade média no percurso todo?",
+        ["40 km/h", "60 km/h", "80 km/h", "120 km/h"],
+        0,
+        "Distância total = 120 km. Tempo total = 3 horas. Logo, V = 120 ÷ 3 = 40 km/h."
+    ],
+
+
+    // DISTÂNCIA - 8 QUESTÕES
+
+    [
+        "Distância",
+        "Um carro mantém velocidade constante de 60 km/h durante 2 horas. Qual distância percorre?",
+        ["30 km", "60 km", "120 km", "180 km"],
+        2,
+        "Distância = velocidade × tempo. Portanto, 60 × 2 = 120 km."
+    ],
+
+    [
+        "Distância",
+        "Um ônibus viaja a 80 km/h durante 3 horas. Qual distância percorre?",
+        ["160 km", "200 km", "240 km", "320 km"],
+        2,
+        "D = 80 × 3 = 240 km."
+    ],
+
+    [
+        "Distância",
+        "Uma pessoa caminha a 5 m/s durante 20 segundos. Qual distância percorre?",
+        ["25 m", "50 m", "100 m", "125 m"],
+        2,
+        "D = 5 × 20 = 100 metros."
+    ],
+
+    [
+        "Distância",
+        "Um ciclista mantém velocidade de 12 km/h durante 4 horas. Qual distância percorre?",
+        ["3 km", "16 km", "36 km", "48 km"],
+        3,
+        "D = 12 × 4 = 48 km."
+    ],
+
+    [
+        "Distância",
+        "Um atleta corre a 15 m/s durante 10 segundos. Qual distância percorre?",
+        ["15 m", "100 m", "150 m", "250 m"],
+        2,
+        "Multiplicamos a velocidade pelo tempo: 15 × 10 = 150 metros."
+    ],
+
+    [
+        "Distância",
+        "Um veículo mantém velocidade de 45 km/h por 2 horas. Qual distância percorre?",
+        ["45 km", "90 km", "120 km", "180 km"],
+        1,
+        "D = 45 × 2 = 90 km."
+    ],
+
+    [
+        "Distância",
+        "Uma pessoa se desloca a 3 m/s durante 30 segundos. Quantos metros percorre?",
+        ["10 m", "60 m", "90 m", "100 m"],
+        2,
+        "D = 3 × 30 = 90 metros."
+    ],
+
+    [
+        "Distância",
+        "Uma bicicleta mantém velocidade de 25 km/h durante 4 horas. Qual distância percorre?",
+        ["25 km", "75 km", "100 km", "125 km"],
+        2,
+        "D = 25 × 4 = 100 km."
+    ],
+
+
+    // TEMPO - 7 QUESTÕES
+
+    [
+        "Tempo",
+        "Um carro percorre 120 km mantendo velocidade de 60 km/h. Quanto tempo leva?",
+        ["1 hora", "2 horas", "3 horas", "4 horas"],
+        1,
+        "Tempo = distância ÷ velocidade. Portanto, 120 ÷ 60 = 2 horas."
+    ],
+
+    [
+        "Tempo",
+        "Um ônibus percorre 180 km a 90 km/h. Quanto tempo dura a viagem?",
+        ["1 hora", "3 horas", "2 horas", "4 horas"],
+        2,
+        "T = 180 ÷ 90 = 2 horas."
+    ],
+
+    [
+        "Tempo",
+        "Um atleta percorre 100 metros mantendo velocidade de 5 m/s. Quanto tempo leva?",
+        ["10 segundos", "15 segundos", "20 segundos", "25 segundos"],
+        2,
+        "T = 100 ÷ 5 = 20 segundos."
+    ],
+
+    [
+        "Tempo",
+        "Um veículo percorre 240 km a 80 km/h. Qual é o tempo da viagem?",
+        ["2 horas", "3 horas", "4 horas", "6 horas"],
+        1,
+        "T = 240 ÷ 80 = 3 horas."
+    ],
+
+    [
+        "Tempo",
+        "Uma pessoa percorre 72 metros a 6 m/s. Quanto tempo leva?",
+        ["6 segundos", "10 segundos", "12 segundos", "18 segundos"],
+        2,
+        "T = 72 ÷ 6 = 12 segundos."
+    ],
+
+    [
+        "Tempo",
+        "Um carro percorre 200 km mantendo velocidade de 50 km/h. Quanto tempo leva?",
+        ["2 horas", "3 horas", "4 horas", "5 horas"],
+        2,
+        "T = 200 ÷ 50 = 4 horas."
+    ],
+
+    [
+        "Tempo",
+        "Um corredor percorre 150 metros a 10 m/s. Quanto tempo leva?",
+        ["10 segundos", "15 segundos", "20 segundos", "30 segundos"],
+        1,
+        "T = 150 ÷ 10 = 15 segundos."
+    ],
+
+
+    // INTERPRETAÇÃO DE POSIÇÕES - 7 QUESTÕES
+
+    [
+        "Interpretação de posições",
+        "Um carro inicia seu percurso no km 20 de uma rodovia e termina no km 90. Seguindo sempre no sentido crescente, qual distância percorreu?",
+        ["60 km", "70 km", "90 km", "110 km"],
+        1,
+        "Distância = posição final - posição inicial. Assim, 90 - 20 = 70 km."
+    ],
+
+    [
+        "Interpretação de posições",
+        "Um ciclista parte do marco de 5 km e chega ao marco de 35 km em 2 horas, sem mudar de sentido. Qual foi sua velocidade média?",
+        ["10 km/h", "15 km/h", "20 km/h", "30 km/h"],
+        1,
+        "O deslocamento é 35 - 5 = 30 km. Logo, V = 30 ÷ 2 = 15 km/h."
+    ],
+
+    [
+        "Interpretação de posições",
+        "Um móvel passa da posição 12 m para a posição 52 m, avançando em linha reta. Qual foi seu deslocamento?",
+        ["20 m", "40 m", "52 m", "64 m"],
+        1,
+        "Deslocamento = posição final - posição inicial. Portanto, 52 - 12 = 40 metros."
+    ],
+
+    [
+        "Interpretação de posições",
+        "Um ônibus parte do km 10 e chega ao km 70 em 3 horas, sem mudar de sentido. Qual foi sua velocidade média?",
+        ["15 km/h", "30 km/h", "20 km/h", "60 km/h"],
+        2,
+        "O deslocamento é 70 - 10 = 60 km. Dividindo por 3 horas, encontramos 20 km/h."
+    ],
+
+    [
+        "Interpretação de posições",
+        "Um objeto parte da posição 0 m e chega à posição 25 m após 5 segundos, movendo-se sempre no mesmo sentido. Qual foi sua velocidade média?",
+        ["5 m/s", "10 m/s", "20 m/s", "25 m/s"],
+        0,
+        "O deslocamento foi de 25 metros em 5 segundos. V = 25 ÷ 5 = 5 m/s."
+    ],
+
+    [
+        "Interpretação de posições",
+        "Um veículo apresenta as posições: 0 h = 0 km, 1 h = 40 km, 2 h = 80 km e 3 h = 120 km. Qual foi sua velocidade média?",
+        ["20 km/h", "30 km/h", "60 km/h", "40 km/h"],
+        3,
+        "O veículo se deslocou 120 km em 3 horas. V = 120 ÷ 3 = 40 km/h."
+    ],
+
+    [
+        "Interpretação de posições",
+        "Dois ciclistas partem da posição 0 m ao mesmo tempo. Após 10 segundos, Ana está na posição 60 m e Bruno na posição 40 m. Ambos seguem no sentido crescente. Quem teve maior velocidade média?",
+        [
+            "Ana, com 6 m/s",
+            "Bruno, com 6 m/s",
+            "Os dois, com 4 m/s",
+            "Os dois, com 10 m/s"
+        ],
+        0,
+        "Ana: 60 ÷ 10 = 6 m/s. Bruno: 40 ÷ 10 = 4 m/s. Ana apresentou maior velocidade média."
+    ]
+
+];
+
+
+// ======================================
+// ADICIONAR FÍSICA AO BANCO DO QUIZ
+// ======================================
+
+perguntas["Física"] = questoesFisica.map(function(item) {
+
+    return {
+        tema: item[0],
+        pergunta: item[1],
+        alternativas: item[2],
+        correta: item[3],
+        explicacao: item[4]
+    };
+
+});
+
 
 // VARIÁVEIS DO JOGO
 
